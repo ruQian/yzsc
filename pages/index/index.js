@@ -4,16 +4,23 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '坤坤审车 保你无忧',
+    content:'联系电话:18220096514',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   // 事件处理函数
   bindViewTap() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    //wx.navigateTo({
+    //  url: '../logs/logs'
+    //})
+  },
+  callMe()
+  {    
+    wx.makePhoneCall({
+      phoneNumber: '18220096514' 
+  })
+  
   },
   onLoad() {
     if (app.globalData.userInfo) {
