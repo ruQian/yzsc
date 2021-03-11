@@ -17,10 +17,12 @@ Page({
   },
   callMe()
   {    
-    wx.makePhoneCall({
-      phoneNumber: '18220096514' 
-  })
-  
+    //wx.makePhoneCall({
+      //phoneNumber: '18220096514' 
+    //})
+     wx.navigateTo({
+      url: '../navPage/navPage'
+    })
   },
   onLoad() {
     if (app.globalData.userInfo) {

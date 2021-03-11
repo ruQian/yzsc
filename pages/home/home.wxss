@@ -1,0 +1,65 @@
+/* pages/home/home.wxss */
+.weui-cell_example .weui-cell__hd image{width:20px;height:20px;display:block;margin-right:16px}
+.banner {
+  width: 750rpx;
+  height: 400rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.user-menu{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+}
+
+.user-menu .item{
+  float: left;
+  width: 50%;
+  height: 187.5rpx;
+  text-align: center;
+}
+
+.user-menu .item .a{
+display: flex;
+width: 100%;
+height: 100%;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.user-menu .item.no-border {
+  border-right: 0;
+}
+
+.user-menu .item.item-bottom {
+  border-bottom: none;
+}
+.user-menu .icon{
+  margin: 0 auto;
+  display: block;
+  height: 52.803rpx;
+  width: 52.803rpx;
+  margin-bottom: 0rpx;
+}
+
+.user-menu .icon.yuyue{
+  background: url(http://www.ylhzzy.top:8828/public/test/yuyue.png);
+  background-size: 52.803rpx;
+}
+.user-menu .icon.tel{
+  background: url(http://www.ylhzzy.top:8828/public/test/tel.png);
+  background-size: 52.803rpx;
+}
+.user-menu .txt{
+    display: block;
+    height: 24rpx;
+    width: 100%;
+    font-size: 38rpx;
+    color:#333;
+}
